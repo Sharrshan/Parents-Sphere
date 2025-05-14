@@ -47,7 +47,7 @@ signUp.addEventListener('click', (event)=>{
        const docRef=doc(db, "users", user.uid);
        setDoc(docRef,userData)
        .then(()=>{
-           window.location.href='index.html';
+           window.location.href='index1.html';
        })
        .catch((error)=>{
            console.error("error writing document", error);
